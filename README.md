@@ -28,3 +28,19 @@ bash
 Copy code
 npm start
 The app will be available at http://localhost:3000.
+
+Usage
+View Random Dog Picture: When you open the app, it will fetch and display a random dog image.
+Generate a New Image: Click the "Generate New" button to fetch and display a new random dog picture.
+API
+This app uses the Dog CEO API to fetch random dog images. The API is free to use and does not require an API key.
+
+Example
+When you open the app, you’ll see:
+
+A random dog picture displayed.
+A button to fetch a new dog picture when clicked.
+Dependencies
+React: Frontend framework for building the UI.
+Axios or Fetch API: For making API requests to fetch random dog pictures.
+CSS Modules or Styled Components: For styling.
